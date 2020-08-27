@@ -58,10 +58,22 @@ def letra_z(n)
     print "*"*n+"\n"
 end
 
+#letra_x
+def letra_x(n)
+    #Seccion superior
+    print "*"+" "*(n-2)+"*"+"\n"
+
+    #Seccion Inferior
+    print "*"+" "*(n-2)+"*"+"\n"
+end
+
+
 
 letra_o(5)
 puts "\n"
 letra_i(5)
 puts "\n"
 letra_z(5)
+puts "\n"
+letra_x(5)
 
