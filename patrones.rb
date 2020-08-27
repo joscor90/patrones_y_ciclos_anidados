@@ -42,17 +42,21 @@ end
 
 #letra_z
 def letra_z(n)
-        #Sección superior
-        print "*"*n+"\n"
+    #Sección superior
+    print "*"*n+"\n"
 
-        #Sección media
-        
-
-
-    
-        #Sección inferior
-        print "*"*n+"\n"
+    #Sección media
+    (n-2).downto(1) do |i|
+        print " "*i
+        1.times do
+            print "*"
+        end
+        print "\n"
     end
+
+    #Sección inferior
+    print "*"*n+"\n"
+end
 
 
 letra_o(5)
