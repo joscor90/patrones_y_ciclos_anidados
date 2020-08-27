@@ -19,6 +19,14 @@ def letra_o(n)
     print "*"*n+"\n"
 end
 
+#letra_i
+def letra_i(n)
+    #Sección superior
+    print "*"*n+"\n"
 
-letra_o(5)
-    
+    #Sección inferior
+    print "*"*n+"\n"
+end
+
+letra_i(5)
+
